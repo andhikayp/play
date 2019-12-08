@@ -1,6 +1,6 @@
 
 
-<form id="login-form" class="js-validation-signin px-30" action="{{ base_url('login/dologin') }}" method="post">
+<form id="login-form" class="js-validation-signin px-30" action="<?php echo base_url('login/dologin') ?>" method="post">
                     <div class="form-group row">
                         <div class="col-12">
                             <div class="form-material form-material-primary floating">
