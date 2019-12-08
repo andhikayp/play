@@ -52,7 +52,7 @@ class Login extends CI_Controller {
 	function dologin() 
 	{ 
 		$status = $this->validation($this->input->post());
-		if($status == TRUE)
+		if($status == FALSE)
 		{
 			$this->session->set_flashdata('message', array('type' => 'error', 'message' => [validation_errors()]));
 			return redirect(base_url('auth/index'));
@@ -62,13 +62,12 @@ class Login extends CI_Controller {
 		{ 	
 			$data_session = $this->createSession($user);
 			$this->session->set_userdata('user_login',$data_session);
-			redirect(base_url("dashboard/index")); 
+			redirect(base_url("userFacade/index")); 
 		}
 		else 
 		{ 
-			var_dump("kkkl"); return;
 			$this->session->set_flashdata('message', array('type' => 'error', 'message' => ["Username atau password tidak sesuai"]));
-			redirect(base_url("auth/index")); 
+			redirect(base_url("userFacade/index")); 
 		} 
 	}
 }
