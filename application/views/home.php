@@ -25,7 +25,7 @@
 
 <h2>E-Resources</h2>
 
-<button class="button button4">Jurnal</button>
+<button class="button button4">Jelajahi</button>
 <button class="button button4">Sertifikat</button>
 <button class="button button4">Skor Test</button>
 
