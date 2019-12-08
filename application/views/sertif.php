@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="<?php echo site_url('asset') ?>/logo.png" type="png" sizes="16x16">
+	<title>E-Resource Class</title>
 <style>
 
 

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<link rel="icon" href="<?php echo site_url('asset') ?>/logo.png" type="png" sizes="16x16">
 <html>
 <head>
+  <title>E-Resource Class</title>
 <style>
 .button {
   background-color: #4CAF50; /* Green */

@@ -1,4 +1,5 @@
-
+<link rel="icon" href="asset/logo.jpg" type="png" sizes="16x16">
+<title>E-Resource Class</title>
 
 <form id="login-form" class="js-validation-signin px-30" action="<?php echo base_url('login/dologin') ?>" method="post">
                     <div class="form-group row">
