@@ -8,6 +8,12 @@ class Certificate extends CI_Controller {
 		
 	}
 
+	public function showSertif()
+	{
+		// var_dump($this->session->userdata('user_login')['name']); return;
+		$this->load->view('sertif');
+	}
+
 }
 
 /* End of file cerificate.php */

@@ -26,7 +26,7 @@
 <h2>E-Resources</h2>
 
 <button class="button button4">Jelajahi</button>
-<button class="button button4">Sertifikat</button>
+<button class="button button4"><a href="<?php echo base_url('certificate/showSertif') ?>">Sertifikat</a></button>
 <button class="button button4">Skor Test</button>
 
 </body>
