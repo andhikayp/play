@@ -49,11 +49,13 @@
     transform: translate(-50%, -50%) ">
 
 <h1 style="text-align: center; margin-bottom: 40px; font-family: Helvetica;">Welcome, <?php echo $this->session->userdata('user_login')['name']; ?>!</h1>
+    <h4>Execution Time: {elapsed_time}</h4>
+
 
 
 <button class="button button4">Jelajahi</button>
 <button class="button button4"><a href="<?php echo base_url('certificate/showSertif') ?>">Sertifikat</a></button>
-<button class="button button4">Skor Test</button>
+<button class="button button4"><a href="<?php echo base_url('userFacade/showResult') ?>">Skor Test</a></button>
 </div>
 </body>
 </html>

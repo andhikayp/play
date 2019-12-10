@@ -34,6 +34,7 @@
     transform: translate(-50%, -50%) ">
 
     <h1 style="text-align: center; margin-bottom: 40px;">E-Resource</h1>
+    <h6>Execution Time: {elapsed_time}</h6>
 
 <form id="login-form" class="js-validation-signin px-30" action="<?php echo base_url('login/dologin') ?>" method="post">
                     <div class="form-group row">
