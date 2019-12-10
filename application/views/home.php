@@ -38,7 +38,7 @@
  
 
 
-<button class="button button4">Jelajahi</button>
+<button class="button button4"><a href="<?php echo base_url('journal/index') ?>">Jelajahi</a></button>
 <button class="button button4"><a href="<?php echo base_url('certificate/showSertif') ?>">Sertifikat</a></button>
 <button class="button button4"><a href="<?php echo base_url('userFacade/showResult') ?>">Skor Test</a></button>
 </div>
