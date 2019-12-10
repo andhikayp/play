@@ -37,7 +37,7 @@ class UserFacade extends CI_Controller {
 
 		$mergeData = new MergeData;
 		$data = $mergeData->mergeShowResult($user, $nilai_pretest, $nilai_posttest);
-		$this->load->view('sertif', $data);
+		$this->load->view('skor', $data);
 	}
 }
 

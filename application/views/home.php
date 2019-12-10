@@ -3,25 +3,9 @@
 <html>
 <head>
 <title>E-Resource Class</title>
-     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-    <!-- Bootstrap core CSS-->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Page level plugin CSS-->
-    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
-
-    <!-- Custom styles for this template-->
-    <link href="css/sb-admin.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
+  body { background-color: #dcf7f4; }
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -42,15 +26,16 @@
 </style>
 </head>
 <body>
+     <h4 style="margin: 30px;">Execution Time: {elapsed_time}</h4>
+
 <div style="position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) ">
 
 <h1 style="text-align: center; margin-bottom: 40px; font-family: Helvetica;">Welcome, <?php echo $this->session->userdata('user_login')['name']; ?>!</h1>
-    <h4>Execution Time: {elapsed_time}</h4>
-
+ 
 
 
 <button class="button button4">Jelajahi</button>
